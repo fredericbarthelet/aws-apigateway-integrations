@@ -1,0 +1,44 @@
+{
+  "name": "aws-apigateway-integrations",
+  "description": "Integrations for AWS APIGateway",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "lint:fix": "eslint --fix .",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@aws-cdk/assertions": "1.131.0",
+    "@aws-cdk/aws-dynamodb": "^1.131.0",
+    "@aws-cdk/aws-iam": "^1.131.0",
+    "@aws-sdk/client-dynamodb": "^3.40.0",
+    "@aws-sdk/lib-dynamodb": "^3.40.0",
+    "@aws/dynamodb-data-marshaller": "^0.7.3",
+    "@types/jest": "^27.0.2",
+    "@types/lodash": "^4.14.176",
+    "@types/node": "10.17.27",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "~3.9.7"
+  },
+  "peerDependencies": {
+    "@aws-cdk/core": "1.131.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.131.0",
+    "@aws-cdk/core": "1.131.0",
+    "@aws-sdk/util-dynamodb": "^3.40.0",
+    "lodash": "^4.17.21"
+  }
+}
