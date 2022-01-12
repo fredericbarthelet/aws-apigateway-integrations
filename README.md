@@ -13,6 +13,8 @@ It's primarly goal is to generate programatically:
 - URI configuration for integrated AWS service
 - VTL templates from API Gateway integration request and response
 
+This library only supports REST API integrations. HTTP API service integration feature is limited to [only a few services](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-aws-services-reference.html). In additionn, AWS already provides an [integration library made for API Gateway HTTP API](https://docs.aws.amazon.com/cdk/api/v1/docs/aws-apigatewayv2-integrations-readme.html).
+
 ## List of available AWS service integrations
 
 - [DynamoDB](./docs/dynamodb.md)
